@@ -1,9 +1,8 @@
-
 body {
     margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#a23982,#1f1013);
+    background: radial-gradient(#43A6FB,#1f1013);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
@@ -25,7 +24,7 @@ button{
   font-size: 2em;
   border-radius: 5px;
   opacity: .5;
-  top: 60vh;
+  top: 20vh;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -41,6 +40,13 @@ button:hover{
   opacity: .8;
   transition: .3s;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: ;
 }
 
 .light {
@@ -208,51 +214,11 @@ button:focus{
   font-size: 2em;
 }
 
-#head1, #head2,#head3, #head4, #head5{
+#head1{
   opacity: 0;
 }
 
 #head1{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-}
-
-#head2{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 6s;
-  -moz-animation-delay: 6s;
-  -o-animation-delay: 6s;
-  animation-delay: 6s;
-}
-
-#head3{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 12s;
-  -moz-animation-delay: 12s;
-  -o-animation-delay: 12s;
-  animation-delay: 12s;
-}
-
-#head4{
-  -webkit-animation: fadeOut 1 5s ease-in;
-  -moz-animation: fadeOut 1 5s ease-in;
-  -o-animation: fadeOut 1 5s ease-in;
-  animation: fadeOut 1 5s ease-in;
-  -webkit-animation-delay: 17s;
-  -moz-animation-delay: 17s;
-  -o-animation-delay: 17s;
-  animation-delay: 17s;
-}
-
-#head5{
   -webkit-animation: finalFade 1 5s ease-in;
   -moz-animation: finalFade 1 5s ease-in;
   -o-animation: finalFade 1 5s ease-in;
@@ -261,10 +227,6 @@ button:focus{
   -moz-animation-fill-mode: forwards;
   -o-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  -webkit-animation-delay: 22s;
-  -moz-animation-delay: 22s;
-  -o-animation-delay: 22s;
-  animation-delay: 22s;
 }
 
 @-webkit-keyframes fadeIn{
